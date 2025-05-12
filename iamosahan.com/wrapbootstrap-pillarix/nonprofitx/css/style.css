@@ -1,0 +1,200 @@
+/*
+Template Name: Nonprofitx | Charity & Donation Website Template
+Author: Pillarix
+Author URI: https://wrapbootstrap.com/user/pillarix
+Version: 1.0
+*/
+/*
+-- Body
+-- Custom Classes
+-- Side Navbar
+-- Index 
+-- Projects
+-- About
+-- Volunteer
+-- Contact
+-- Post-1
+-- Post-2
+-- Post-3
+-- Admin
+-- Footer
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&amp;family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&amp;family=Homemade+Apple&amp;display=swap');
+
+/* Body */
+body {
+	font-family: 'DM Sans', sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Barlow', sans-serif;
+}
+.handwriting-font {
+	font-family: 'Homemade Apple', cursive;
+}
+a {
+	text-decoration: none;
+	color: #1b1b1b;
+}
+a:hover {
+	color: #ffc107;
+}
+
+/* Custom Classes */
+.charity-nav  a.nav-link {
+	padding-top: 29px !important;
+	padding-bottom: 29px !important;
+	color: #ffffff !important;
+}
+.w-15 {
+	width: 15% !important;
+}
+
+/* Side Navbar */
+.sidebar-nav .nav-link.active {
+	color: #ffc107;
+}
+
+/* Index */
+.bg-homepage {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.provide-img {
+	width: 50px;
+}
+.provide {
+	margin-top: -8rem;
+}
+.school-video {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/school.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 750px;
+}
+
+/* Projects */
+.bg-project {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-project.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bg-volunteer {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* About */
+.bg-about {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-about.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.work-img {
+	width: 70px;
+}
+
+/* Volunteer */
+.bg-volunteer-page {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-volunteer-page.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Contact */
+.bg-contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-contact.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Post-1 */
+.bg-post-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-1.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.b-icon {
+	height: 25px;
+	width: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Post-2 */
+.bg-post-2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-2.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Post-3 */
+.bg-post-3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/post/post-3.html);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.comment-img {
+	width: 60px;
+}
+
+/* Admin */
+.icon-sm {
+	height: 30px;
+	width: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Footer */
+.social-icon {
+	height: 35px;
+	width: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-icon {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer .footer-top a {
+	color: #6c757d;
+}
+footer .footer-top a:hover {
+	color: #ffc107;
+}
+footer .footer-top .social-icon {
+	border: 1px solid #6c757d;
+}
+footer .footer-top .social-icon:hover {
+	border: 1px solid #ffc107;
+}
+
