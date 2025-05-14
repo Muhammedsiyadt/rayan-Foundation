@@ -61,7 +61,7 @@ a:hover {
 }
 
 /* Side Navbar */
-.sidebar-nav .nav-link.active {
+.sidebar-nav .nav-link .active {
 	color: #ffc107;
 }
 
@@ -198,3 +198,49 @@ footer .footer-top .social-icon:hover {
 	border: 1px solid #ffc107;
 }
 
+
+
+/* Initial navbar style */
+    #mainNavbar {
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Scrolled navbar style */
+    #mainNavbar.scrolled {
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    #mainNavbar.scrolled img {
+        height: 50px !important;
+        transition: all 0.3s ease;
+    }
+    
+    #mainNavbar .nav-link {
+        color: #333 !important;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    #mainNavbar .nav-link.active {
+        color: rgb(9, 168, 168) !important;
+    }
+    
+    #mainNavbar .nav-link:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 30px;
+        left: 0;
+        background-color: orange;
+        transition: width 0.3s ease;
+    }
+    
+    #mainNavbar .nav-link:hover:after {
+        width: 100%;
+    }
+	
